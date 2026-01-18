@@ -257,8 +257,8 @@ async def apply_action(action: ActionPayload):
         # Note: MCC_ID and other creds are loaded via env in ads_updater.py
         orchestrator = ActionOrchestrator(CUSTOMER_ID, dry_run=False)
         
-        # Convert pydantic model to dict for execute_action
-        action_dict = action.dict()
+        # Convert pydantic model to dict for execute_action (Pydantic V2)
+        action_dict = action.model_dump()
         
         # Ensure new_value is set (execute_action expects 'new_value' or 'new_suggested_value')
         if "new_suggested_value" in action_dict and "new_value" not in action_dict:
