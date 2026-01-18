@@ -1,0 +1,51 @@
+{
+  "campaign_id": "22109183710",
+  "campaign_name": "Blaids_RemarketingJan2025",
+  "campaign_type": "DISPLAY",
+  "strategy": {
+    "primary_strategy": "1. Maximize Impressions",
+    "secondary_strategy": null,
+    "tertiary_strategy": null,
+    "confidence": "HIGH",
+    "optimization_mode": "DATA_COLLECTION",
+    "rationale_summary": "The campaign has 0 impressions, 0 clicks, and 0 conversions, indicating a need for initial traffic. The daily budget is $5.0, but the campaign is not limited by budget, suggesting that the issue is with ad visibility or targeting.",
+    "risk_level": "LOW",
+    "expected_impact_30_days": {
+      "primary_metric_target": "Impressions",
+      "primary_metric_value": 1000,
+      "secondary_metric_target": null,
+      "secondary_metric_value": 0.0,
+      "secondary_metric_unit": null
+    }
+  },
+  "actions": [
+    {
+      "resource_type": "CAMPAIGN_BUDGET",
+      "resource_name": "customers/7137669444/campaignBudgets/14220949376",
+      "action_type": "SET_AMOUNT_MICROS",
+      "old_value": 5000000,
+      "new_suggested_value": 12000000,
+      "rationale": "Increasing daily budget to $12 to allow more room for delivery while collecting initial traffic data.",
+      "prediction_30d": "Higher impression volume to test audience responsiveness."
+    },
+    {
+      "resource_type": "AD_GROUP",
+      "resource_name": "customers/7137669444/adGroups/170085336141",
+      "action_type": "UPDATE_STATUS",
+      "old_value": "PAUSED",
+      "new_value": "ENABLED",
+      "rationale": "Enabling the ad group to start serving display ads to the target remarketing list.",
+      "prediction_30d": "Starts ad delivery to the defined audiences."
+    },
+    {
+      "resource_type": "CAMPAIGN",
+      "resource_name": "customers/7137669444/campaigns/22109183710",
+      "action_type": "SET_TARGET_ROAS",
+      "old_value": 3.0,
+      "new_suggested_value": 2.0,
+      "rationale": "Lowering tROAS slightly to make the algorithm less restrictive and encourage initial ad serving for a stalled campaign.",
+      "prediction_30d": "Increased likelihood of ad impressions and clicks."
+    }
+  ],
+  "generated_at": "2026-01-19 01:07:00"
+}

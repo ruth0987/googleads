@@ -1,0 +1,51 @@
+{
+  "campaign_id": "22574541562",
+  "campaign_name": "Sales-Performance_Max-India",
+  "campaign_type": "PERFORMANCE_MAX",
+  "strategy": {
+    "primary_strategy": "8. Budget Optimization",
+    "secondary_strategy": null,
+    "tertiary_strategy": null,
+    "confidence": "HIGH",
+    "optimization_mode": "AGGRESSIVE_SCALING",
+    "rationale_summary": "The campaign has a high ROAS of 2.77, exceeding the target ROAS of 1.76, and is limited by budget, with 11.98% of impression share lost to budget. Increasing the budget can help scale the campaign and maximize conversions. Mobile devices have a higher conversion rate and ROAS compared to desktop, so prioritizing mobile spend can help improve overall campaign performance.",
+    "risk_level": "MEDIUM",
+    "expected_impact_30_days": {
+      "primary_metric_target": "Conversions",
+      "primary_metric_value": 15,
+      "secondary_metric_target": "ROAS",
+      "secondary_metric_value": 2.5,
+      "secondary_metric_unit": "x"
+    }
+  },
+  "actions": [
+    {
+      "resource_type": "CAMPAIGN_BUDGET",
+      "resource_name": "customers/7137669444/campaignBudgets/14568871916",
+      "action_type": "SET_AMOUNT_MICROS",
+      "old_value": 7000000,
+      "new_suggested_value": 15000000,
+      "rationale": "Doubling budget to $15 to capture impression share lost due to budget limits, given the high 2.77 ROAS.",
+      "prediction_30d": "Significant increase in conversion volume while maintaining healthy ROAS."
+    },
+    {
+      "resource_type": "CAMPAIGN",
+      "resource_name": "customers/7137669444/campaigns/22574541562",
+      "action_type": "SET_TARGET_ROAS",
+      "old_value": 1.76,
+      "new_suggested_value": 2.2,
+      "rationale": "Adjusting tROAS upward to align with actual performance (2.77) and ensure spend remains focused on high-value India traffic.",
+      "prediction_30d": "Higher average order value and more efficient scaling."
+    },
+    {
+      "resource_type": "ASSET_GROUP",
+      "resource_name": "customers/7137669444/assetGroups/6576920400",
+      "action_type": "UPDATE_STATUS",
+      "old_value": "PAUSED",
+      "new_value": "ENABLED",
+      "rationale": "Ensure the primary asset group is enabled to maximize coverage for the scaled budget.",
+      "prediction_30d": "Improved asset availability for diverse audience segments."
+    }
+  ],
+  "generated_at": "2026-01-19 01:00:00"
+}

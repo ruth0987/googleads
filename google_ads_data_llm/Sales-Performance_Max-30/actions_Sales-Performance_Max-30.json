@@ -1,0 +1,51 @@
+{
+  "campaign_id": "22350629456",
+  "campaign_name": "Sales-Performance_Max-30",
+  "campaign_type": "PERFORMANCE_MAX",
+  "strategy": {
+    "primary_strategy": "4. Maximize ROAS",
+    "secondary_strategy": null,
+    "tertiary_strategy": null,
+    "confidence": "HIGH",
+    "optimization_mode": "AGGRESSIVE_SCALING",
+    "rationale_summary": "The campaign's current ROAS (2.80) is higher than the target ROAS (1.86), indicating a high-performing campaign that can be scaled aggressively. Additionally, the campaign is not limited by budget, but increasing the budget could further improve performance. Mobile CPA is 3% higher than desktop, but overall mobile performance is still strong, suggesting that mobile targeting should not be limited.",
+    "risk_level": "LOW",
+    "expected_impact_30_days": {
+      "primary_metric_target": "ROAS",
+      "primary_metric_value": 3.0,
+      "secondary_metric_target": "Conversions",
+      "secondary_metric_value": 10,
+      "secondary_metric_unit": "x"
+    }
+  },
+  "actions": [
+    {
+      "resource_type": "CAMPAIGN",
+      "resource_name": "customers/7137669444/campaigns/22350629456",
+      "action_type": "SET_TARGET_ROAS",
+      "old_value": 1.86,
+      "new_suggested_value": 2.4,
+      "rationale": "Increasing Target ROAS to capitalize on strong historical performance (2.80 ROAS).",
+      "prediction_30d": "Improved efficiency and higher conversion value."
+    },
+    {
+      "resource_type": "CAMPAIGN_BUDGET",
+      "resource_name": "customers/7137669444/campaignBudgets/14418764572",
+      "action_type": "SET_AMOUNT_MICROS",
+      "old_value": 31000000,
+      "new_suggested_value": 50000000,
+      "rationale": "Aggressive budget scaling from $31 to $50 for this high-ROAS campaign.",
+      "prediction_30d": "Substantial lift in revenue while maintaining profitability targets."
+    },
+    {
+      "resource_type": "ASSET_GROUP",
+      "resource_name": "customers/7137669444/assetGroups/6561402996",
+      "action_type": "UPDATE_STATUS",
+      "old_value": "PAUSED",
+      "new_value": "ENABLED",
+      "rationale": "Ensure high-perf asset group is active to support increased spend.",
+      "prediction_30d": "Consistent performance across all conversion channels."
+    }
+  ],
+  "generated_at": "2026-01-19 01:02:00"
+}

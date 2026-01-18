@@ -1,0 +1,16 @@
+{
+  "primary_strategy": "8. Budget Optimization",
+  "secondary_strategy": "9. Reduce Waste",
+  "tertiary_strategy": null,
+  "confidence": "MEDIUM",
+  "optimization_mode": "BALANCED_OPTIMIZATION",
+  "rationale_summary": "The campaign is limited by budget, with a spend vs budget ratio of 1.75, indicating that the campaign has potential for more spend. However, the ROAS is currently at 2.31, which is lower than the target ROAS of 7.7. Reducing waste by optimizing for non-converting segments can help improve efficiency. Mobile CPA is 3x higher than desktop, suggesting room for device-level optimization.",
+  "risk_level": "MEDIUM",
+  "expected_impact_30_days": {
+    "primary_metric_target": "Spend",
+    "primary_metric_value": 650.0,
+    "secondary_metric_target": "ROAS",
+    "secondary_metric_value": 3.5,
+    "secondary_metric_unit": "%"
+  }
+}

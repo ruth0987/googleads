@@ -1,0 +1,16 @@
+{
+  "primary_strategy": "1. Maximize Impressions",
+  "secondary_strategy": null,
+  "tertiary_strategy": null,
+  "confidence": "HIGH",
+  "optimization_mode": "DATA_COLLECTION",
+  "rationale_summary": "The campaign has 0 impressions, 0 clicks, and 0 conversions, indicating a need for initial traffic. The daily budget is $2.0, but the campaign is not limited by budget, suggesting that the issue is with ad visibility or targeting.",
+  "risk_level": "LOW",
+  "expected_impact_30_days": {
+    "primary_metric_target": "Impressions",
+    "primary_metric_value": 1000,
+    "secondary_metric_target": null,
+    "secondary_metric_value": 0.0,
+    "secondary_metric_unit": null
+  }
+}

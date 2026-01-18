@@ -1,0 +1,16 @@
+{
+  "primary_strategy": "4. Maximize ROAS",
+  "secondary_strategy": "8. Budget Optimization",
+  "tertiary_strategy": null,
+  "confidence": "MEDIUM",
+  "optimization_mode": "AGGRESSIVE_SCALING",
+  "rationale_summary": "The campaign is currently exceeding its target ROAS of 1.67 with a 30-day ROAS of 2.22. Mobile devices are driving the majority of the conversions with a ROAS of 2.44. The campaign is not limited by budget, but increasing the budget could lead to more conversions and higher revenue. Therefore, the primary strategy is to maximize ROAS, and the secondary strategy is to optimize the budget for further growth.",
+  "risk_level": "MEDIUM",
+  "expected_impact_30_days": {
+    "primary_metric_target": "ROAS",
+    "primary_metric_value": 2.5,
+    "secondary_metric_target": "Conversions",
+    "secondary_metric_value": 4,
+    "secondary_metric_unit": "x"
+  }
+}

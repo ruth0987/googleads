@@ -1,0 +1,42 @@
+{
+  "campaign_id": "22322040378",
+  "campaign_name": "Sales-Performance_Max-_Feed-Global_Mar2025",
+  "campaign_type": "PERFORMANCE_MAX",
+  "strategy": {
+    "primary_strategy": "1. Maximize Impressions",
+    "secondary_strategy": null,
+    "tertiary_strategy": null,
+    "confidence": "MEDIUM",
+    "optimization_mode": "DATA_COLLECTION",
+    "rationale_summary": "The campaign has 0 conversions despite a significant spend of $52.16, indicating a need for initial traffic and data collection. The low impression share of 9.99% and high lost impression share due to rank (90.01%) suggest that the campaign is not competitive enough. Maximizing impressions will help gather more data and improve the campaign's visibility.",
+    "risk_level": "LOW",
+    "expected_impact_30_days": {
+      "primary_metric_target": "Impressions",
+      "primary_metric_value": 10000,
+      "secondary_metric_target": null,
+      "secondary_metric_value": 0.0,
+      "secondary_metric_unit": null
+    }
+  },
+  "actions": [
+    {
+      "resource_type": "CAMPAIGN_BUDGET",
+      "resource_name": "customers/7137669444/campaignBudgets/13770038783",
+      "action_type": "SET_AMOUNT_MICROS",
+      "old_value": 5000000,
+      "new_suggested_value": 15000000,
+      "rationale": "Triple daily budget to $15 to allow the campaign to exit the learning phase and capture more impression share.",
+      "prediction_30d": "Significant increase in impressions and data points for conversion optimization."
+    },
+    {
+      "resource_type": "ASSET_GROUP",
+      "resource_name": "customers/7137669444/assetGroups/6559702210",
+      "action_type": "UPDATE_STATUS",
+      "old_value": "PAUSED",
+      "new_value": "ENABLED",
+      "rationale": "Ensure the primary asset group is enabled to start driving traffic to the feed-global products.",
+      "prediction_30d": "Campaign begins spending consistently against the global product feed."
+    }
+  ],
+  "generated_at": "2026-01-19 00:52:00"
+}

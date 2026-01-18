@@ -1,0 +1,16 @@
+{
+  "primary_strategy": "1. Maximize Impressions",
+  "secondary_strategy": null,
+  "tertiary_strategy": null,
+  "confidence": "MEDIUM",
+  "optimization_mode": "DATA_COLLECTION",
+  "rationale_summary": "The campaign has 0 conversions despite a significant spend of $52.16, indicating a need for initial traffic and data collection. The low impression share of 9.99% and high lost impression share due to rank (90.01%) suggest that the campaign is not competitive enough. Maximizing impressions will help gather more data and improve the campaign's visibility.",
+  "risk_level": "LOW",
+  "expected_impact_30_days": {
+    "primary_metric_target": "Impressions",
+    "primary_metric_value": 10000,
+    "secondary_metric_target": null,
+    "secondary_metric_value": 0.0,
+    "secondary_metric_unit": null
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "campaign_id": "22574552764",
+  "campaign_name": "Blaids_RemarketingMay2025_Ind",
+  "campaign_type": "DISPLAY",
+  "strategy": {
+    "primary_strategy": "1. Maximize Impressions",
+    "secondary_strategy": null,
+    "tertiary_strategy": null,
+    "confidence": "HIGH",
+    "optimization_mode": "DATA_COLLECTION",
+    "rationale_summary": "Brand new India Remarketing campaign with 0 spend and 0 impressions. Primary goal is to trigger spend and start collecting audience data for remarketing pools.",
+    "risk_level": "LOW",
+    "expected_impact_30_days": {
+      "primary_metric_target": "Impressions",
+      "primary_metric_value": 5000,
+      "secondary_metric_target": "Clicks",
+      "secondary_metric_value": 200,
+      "secondary_metric_unit": "x"
+    }
+  },
+  "actions": [
+    {
+      "resource_type": "CAMPAIGN_BUDGET",
+      "resource_name": "customers/7137669444/campaignBudgets/14568877844",
+      "action_type": "SET_AMOUNT_MICROS",
+      "old_value": 5000000,
+      "new_suggested_value": 10000000,
+      "rationale": "Increase daily budget from $5 to $10 to provide more room for initial delivery in the India market.",
+      "prediction_30d": "Higher impression volume to jumpstart audience building."
+    },
+    {
+      "resource_type": "AD_GROUP",
+      "resource_name": "customers/7137669444/adGroups/188208081588",
+      "action_type": "UPDATE_STATUS",
+      "old_value": "PAUSED",
+      "new_value": "ENABLED",
+      "rationale": "Enabling the primary remarketing ad group to start serving ads to the India audience.",
+      "prediction_30d": "Ad group becomes active and starts competing in auctions."
+    },
+    {
+      "resource_type": "CAMPAIGN",
+      "resource_name": "customers/7137669444/campaigns/22574552764",
+      "action_type": "UPDATE_STATUS",
+      "old_value": "PAUSED",
+      "new_value": "ENABLED",
+      "rationale": "Activating the overall campaign to initiate remarketing operations.",
+      "prediction_30d": "Campaign moves out of draft/paused status into serving mode."
+    },
+    {
+      "resource_type": "AD_GROUP_CRITERION",
+      "resource_name": "customers/7137669444/adGroupCriteria/188208081588~503001",
+      "action_type": "SET_CPC_BID",
+      "old_value": 0.0,
+      "new_suggested_value": 0.5,
+      "rationale": "Setting an initial competitive CPC bid of $0.50 to ensure ad eligibility in the India display network.",
+      "prediction_30d": "Ensures ads are served to relevant remarketing segments."
+    }
+  ],
+  "generated_at": "2026-01-19 01:05:00"
+}

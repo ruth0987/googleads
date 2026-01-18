@@ -1,0 +1,51 @@
+{
+  "campaign_id": "23021816142",
+  "campaign_name": "Sales-PMax-BTE",
+  "campaign_type": "PERFORMANCE_MAX",
+  "strategy": {
+    "primary_strategy": "4. Maximize ROAS",
+    "secondary_strategy": "8. Budget Optimization",
+    "tertiary_strategy": null,
+    "confidence": "MEDIUM",
+    "optimization_mode": "AGGRESSIVE_SCALING",
+    "rationale_summary": "The campaign is currently exceeding its target ROAS of 1.67 with a 30-day ROAS of 2.22. Mobile devices are driving the majority of the conversions with a ROAS of 2.44. The campaign is not limited by budget, but increasing the budget could lead to more conversions and higher revenue. Therefore, the primary strategy is to maximize ROAS, and the secondary strategy is to optimize the budget for further growth.",
+    "risk_level": "MEDIUM",
+    "expected_impact_30_days": {
+      "primary_metric_target": "ROAS",
+      "primary_metric_value": 2.5,
+      "secondary_metric_target": "Conversions",
+      "secondary_metric_value": 4,
+      "secondary_metric_unit": "x"
+    }
+  },
+  "actions": [
+    {
+      "resource_type": "CAMPAIGN",
+      "resource_name": "customers/7137669444/campaigns/23021816142",
+      "action_type": "SET_TARGET_ROAS",
+      "old_value": 1.67,
+      "new_suggested_value": 2.2,
+      "rationale": "Increasing Target ROAS to match current performance levels and improve overall profitability.",
+      "prediction_30d": "Higher efficiency with potentially same conversion volume."
+    },
+    {
+      "resource_type": "CAMPAIGN_BUDGET",
+      "resource_name": "customers/7137669444/campaignBudgets/14945201677",
+      "action_type": "SET_AMOUNT_MICROS",
+      "old_value": 14000000,
+      "new_suggested_value": 25000000,
+      "rationale": "Scaling budget to capitalize on healthy ROAS and drive more volume. Increasing from $14 to $25.",
+      "prediction_30d": "Increased conversion volume at profitable levels."
+    },
+    {
+      "resource_type": "ASSET_GROUP",
+      "resource_name": "customers/7137669444/assetGroups/6610813270",
+      "action_type": "UPDATE_STATUS",
+      "old_value": "PAUSED",
+      "new_value": "ENABLED",
+      "rationale": "Ensure target asset group for BTE is consistently active during budget scaling.",
+      "prediction_30d": "Maximizes asset coverage during scaling."
+    }
+  ],
+  "generated_at": "2026-01-19 00:56:00"
+}

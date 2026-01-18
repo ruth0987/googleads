@@ -1,0 +1,2620 @@
+{
+  "payload": {
+    "campaign_id": "22574541562",
+    "campaign_name": "Sales-Performance Max-India",
+    "advertising_channel_type": "PERFORMANCE_MAX",
+    "advertising_channel_sub_type": null,
+    "campaign_days_running": 245,
+    "bidding_strategy": {
+      "type": "MAXIMIZE_CONVERSION_VALUE",
+      "target_roas": 1.76,
+      "target_cpa_usd": null
+    },
+    "goals": {
+      "target_roas": 1.76,
+      "target_cpa_usd": null
+    },
+    "derived_metrics": {
+      "total_spend_usd": 114.6,
+      "total_clicks": 270,
+      "total_impressions": 4829,
+      "ctr_pct": 5.59,
+      "avg_cpc_usd": 0.42,
+      "conversions": 1.0,
+      "conversion_value_usd": 317.9,
+      "roas": 2.77,
+      "conversion_rate_pct": 0.37,
+      "cpa_usd": 114.6,
+      "search_impression_share_pct": 9.99,
+      "search_budget_lost_impression_share_pct": 11.98,
+      "search_rank_lost_impression_share_pct": 85.14
+    },
+    "budget": {
+      "daily_budget_usd": 5.0,
+      "avg_daily_spend_last_14d": 4.0,
+      "spend_vs_budget_ratio": 0.8,
+      "is_limited_by_budget": true
+    },
+    "product_context": {
+      "avg_order_value_low": 286.11,
+      "avg_order_value_high": 349.69,
+      "aov_usd": 317.9,
+      "aov_tier": "tier_2_high",
+      "conversion_value_is_revenue": true
+    },
+    "thresholds": {
+      "min_impressions_to_evaluate": 2000,
+      "min_clicks_to_evaluate": 200,
+      "min_conversions_for_confident_decision": 10,
+      "min_conversions_for_smart_bidding_like_logic": 15,
+      "min_days_before_optimize_decision": 14,
+      "min_days_before_stop_decision": 7,
+      "min_days_since_last_major_change": 7,
+      "min_stable_days_for_trend": 7,
+      "min_significant_change_in_ctr_pct_points": 0.5,
+      "min_significant_change_in_cvr_pct_points": 0.5,
+      "min_segments_required_for_segment_optimization": 2,
+      "min_conversions_per_segment_for_action": 5,
+      "max_cpa_vs_target_multiplier_for_stop": 2.0,
+      "min_roas_vs_target_multiplier_for_stop": 0.5,
+      "neutral_band_roas_vs_target_low": 0.8,
+      "neutral_band_roas_vs_target_high": 1.2
+    },
+    "analysis_date": "2026-01-18",
+    "generated_at_utc": "2026-01-18T18:20:32.311339+00:00",
+    "generated_at_local": "2026-01-18 23:50:32",
+    "signals": {
+      "devices": {
+        "DESKTOP": {
+          "cost": 40.15,
+          "conversions": 0,
+          "impressions": 823,
+          "cpa": null
+        },
+        "MOBILE": {
+          "cost": 74.35,
+          "conversions": 1.0,
+          "impressions": 3959,
+          "cpa": 74.35
+        },
+        "TABLET": {
+          "cost": 0.09,
+          "conversions": 0,
+          "impressions": 42,
+          "cpa": null
+        },
+        "CONNECTED_TV": {
+          "cost": 0.0,
+          "conversions": 0,
+          "impressions": 5,
+          "cpa": null
+        }
+      },
+      "pmax_asset_groups": [
+        {
+          "name": "customers/7137669444/assetGroups/6576920400",
+          "cost": 114.595046,
+          "conversions": 1.0
+        }
+      ]
+    },
+    "segment_data_raw": {
+      "keyword_performance": [],
+      "quality_score": [],
+      "search_terms": [],
+      "device_performance": [
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "55",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "40154518",
+          "metrics.average_cpc": 730082.1454545455,
+          "metrics.impressions": "823",
+          "segments.device": "DESKTOP"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "213",
+          "metrics.conversions_value": 317.903024305,
+          "metrics.conversions": 1.0,
+          "metrics.cost_micros": "74349166",
+          "metrics.average_cpc": 349057.117370892,
+          "metrics.impressions": "3959",
+          "segments.device": "MOBILE"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "88386",
+          "metrics.average_cpc": 44193.0,
+          "metrics.impressions": "42",
+          "segments.device": "TABLET"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2976",
+          "metrics.impressions": "5",
+          "segments.device": "CONNECTED_TV"
+        }
+      ],
+      "geo_performance": [
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.status": "ENABLED",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "270",
+          "metrics.conversions_value": 317.903024305,
+          "metrics.conversions": 1.0,
+          "metrics.cost_micros": "114595046",
+          "metrics.impressions": "4829",
+          "geographic_view.resource_name": "customers/7137669444/geographicViews/2356~LOCATION_OF_PRESENCE",
+          "geographic_view.location_type": "LOCATION_OF_PRESENCE",
+          "geographic_view.country_criterion_id": "2356"
+        }
+      ],
+      "ad_schedule_performance": [
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2710000",
+          "metrics.impressions": "61",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 0
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "630000",
+          "metrics.impressions": "51",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 1
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "750000",
+          "metrics.impressions": "40",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 2
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1568253",
+          "metrics.impressions": "31",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 3
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2891987",
+          "metrics.impressions": "31",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 4
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "850000",
+          "metrics.impressions": "25",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 5
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1920000",
+          "metrics.impressions": "55",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 6
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "37",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 7
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2457704",
+          "metrics.impressions": "45",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 8
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "380000",
+          "metrics.impressions": "41",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 9
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "7",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2747086",
+          "metrics.impressions": "45",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 10
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "827402",
+          "metrics.impressions": "37",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 11
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "224",
+          "metrics.impressions": "28",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 12
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "30000",
+          "metrics.impressions": "15",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 13
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "6",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 14
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "13702",
+          "metrics.impressions": "5",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 16
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "1",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 17
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "3",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 18
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "7",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 19
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1200000",
+          "metrics.impressions": "12",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 20
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "150000",
+          "metrics.impressions": "20",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 21
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1948411",
+          "metrics.impressions": "29",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 22
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "180000",
+          "metrics.impressions": "30",
+          "segments.day_of_week": "SUNDAY",
+          "segments.hour": 23
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2733818",
+          "metrics.impressions": "53",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 0
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "244617",
+          "metrics.impressions": "26",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 1
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "630000",
+          "metrics.impressions": "43",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 2
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "368618",
+          "metrics.impressions": "30",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 3
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "123336",
+          "metrics.impressions": "36",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 4
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1420000",
+          "metrics.impressions": "51",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 5
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "6",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 6
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "15",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 7
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "870000",
+          "metrics.impressions": "26",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 8
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2180000",
+          "metrics.impressions": "24",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 9
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "20",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 10
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "380000",
+          "metrics.impressions": "17",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 11
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "13",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 12
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "17",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 13
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "480000",
+          "metrics.impressions": "11",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 14
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "5",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 15
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "2",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 17
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "450000",
+          "metrics.impressions": "5",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 18
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "2",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 19
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "8",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 20
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "11",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 21
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1015767",
+          "metrics.impressions": "13",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 22
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "24",
+          "segments.day_of_week": "MONDAY",
+          "segments.hour": 23
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "120000",
+          "metrics.impressions": "26",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 0
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "6067258",
+          "metrics.impressions": "44",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 1
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 317.903024305,
+          "metrics.conversions": 1.0,
+          "metrics.cost_micros": "200834",
+          "metrics.impressions": "22",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 2
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "390000",
+          "metrics.impressions": "16",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 3
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "14",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 4
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "16",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 5
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "11984",
+          "metrics.impressions": "22",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 6
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "206232",
+          "metrics.impressions": "27",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 7
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1245725",
+          "metrics.impressions": "33",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 8
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1411896",
+          "metrics.impressions": "35",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 9
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "6",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "574374",
+          "metrics.impressions": "33",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 10
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "11763",
+          "metrics.impressions": "19",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 11
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "340000",
+          "metrics.impressions": "24",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 12
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "859",
+          "metrics.impressions": "10",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 13
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "630",
+          "metrics.impressions": "6",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 14
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "6",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 15
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "3",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 16
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "1",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 17
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "2",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 18
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "7",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 20
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "13975",
+          "metrics.impressions": "8",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 21
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "18",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 22
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "565500",
+          "metrics.impressions": "16",
+          "segments.day_of_week": "TUESDAY",
+          "segments.hour": 23
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "379152",
+          "metrics.impressions": "26",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 0
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2628887",
+          "metrics.impressions": "29",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 1
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "290149",
+          "metrics.impressions": "27",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 2
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "18",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 3
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1074155",
+          "metrics.impressions": "25",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 4
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "534",
+          "metrics.impressions": "14",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 5
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "9",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 6
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "60000",
+          "metrics.impressions": "27",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 7
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "470000",
+          "metrics.impressions": "22",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 8
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "18",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 9
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "670000",
+          "metrics.impressions": "19",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 10
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "971666",
+          "metrics.impressions": "31",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 11
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "590000",
+          "metrics.impressions": "33",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 12
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "994578",
+          "metrics.impressions": "18",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 13
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "4",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 14
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "1",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 15
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "3",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 16
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "1",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 17
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "6",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 21
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "260544",
+          "metrics.impressions": "11",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 22
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2355478",
+          "metrics.impressions": "38",
+          "segments.day_of_week": "WEDNESDAY",
+          "segments.hour": 23
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "23",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 0
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "113330",
+          "metrics.impressions": "33",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 1
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "980000",
+          "metrics.impressions": "45",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 2
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "26",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 3
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2789729",
+          "metrics.impressions": "40",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 4
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "80000",
+          "metrics.impressions": "32",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 5
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "540000",
+          "metrics.impressions": "32",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 6
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "260000",
+          "metrics.impressions": "23",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 7
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "42",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 8
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "521709",
+          "metrics.impressions": "50",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 9
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "105335",
+          "metrics.impressions": "33",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 10
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "38",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 11
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1140000",
+          "metrics.impressions": "43",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 12
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "11729",
+          "metrics.impressions": "18",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 13
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "10",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 14
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "5",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 15
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "2",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 16
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "480000",
+          "metrics.impressions": "5",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 17
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "4",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 18
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1980000",
+          "metrics.impressions": "8",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 19
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "7",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 20
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "40000",
+          "metrics.impressions": "23",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 21
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "178722",
+          "metrics.impressions": "30",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 22
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2670572",
+          "metrics.impressions": "43",
+          "segments.day_of_week": "THURSDAY",
+          "segments.hour": 23
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "145",
+          "metrics.impressions": "50",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 0
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "736484",
+          "metrics.impressions": "56",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 1
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "6",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "6130000",
+          "metrics.impressions": "88",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 2
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "6",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "3340932",
+          "metrics.impressions": "56",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 3
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "794063",
+          "metrics.impressions": "52",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 4
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "590000",
+          "metrics.impressions": "42",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 5
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "180184",
+          "metrics.impressions": "65",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 6
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1300000",
+          "metrics.impressions": "66",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 7
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "6",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "4118525",
+          "metrics.impressions": "66",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 8
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1206489",
+          "metrics.impressions": "87",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 9
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "7",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2441214",
+          "metrics.impressions": "92",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 10
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "252231",
+          "metrics.impressions": "74",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 11
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "106156",
+          "metrics.impressions": "73",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 12
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1360897",
+          "metrics.impressions": "41",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 13
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "16",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 14
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "3",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 15
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "40000",
+          "metrics.impressions": "9",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 16
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "9",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 17
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "9",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 18
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "12",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 19
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "807749",
+          "metrics.impressions": "31",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 20
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "136",
+          "metrics.impressions": "43",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 21
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2319119",
+          "metrics.impressions": "57",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 22
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "45",
+          "segments.day_of_week": "FRIDAY",
+          "segments.hour": 23
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "6",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2264356",
+          "metrics.impressions": "50",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 0
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "430000",
+          "metrics.impressions": "90",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 1
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2140000",
+          "metrics.impressions": "63",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 2
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1610000",
+          "metrics.impressions": "72",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 3
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "886638",
+          "metrics.impressions": "66",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 4
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "33625",
+          "metrics.impressions": "110",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 5
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "960531",
+          "metrics.impressions": "116",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 6
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "414839",
+          "metrics.impressions": "79",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 7
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "10",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "8305002",
+          "metrics.impressions": "75",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 8
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "262569",
+          "metrics.impressions": "56",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 9
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "73",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 10
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "90000",
+          "metrics.impressions": "59",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 11
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "44",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 12
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "448673",
+          "metrics.impressions": "34",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 13
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "19",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 14
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "9",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 15
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "12",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 16
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "4",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 17
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "4",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 18
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1977926",
+          "metrics.impressions": "8",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 19
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "1",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1100000",
+          "metrics.impressions": "20",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 20
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "21",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 21
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "4",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1410373",
+          "metrics.impressions": "41",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 22
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "587966",
+          "metrics.impressions": "46",
+          "segments.day_of_week": "SATURDAY",
+          "segments.hour": 23
+        }
+      ],
+      "placement_performance_detailed": [],
+      "asset_group_performance": [
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "270",
+          "metrics.conversions_value": 317.903024305,
+          "metrics.conversions": 1.0,
+          "metrics.cost_micros": "114595046",
+          "metrics.impressions": "4829",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.name": "PMax-US-Mar2025",
+          "asset_group.id": "6576920400"
+        }
+      ],
+      "daily_performance": [
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "18",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "5755720",
+          "metrics.impressions": "349",
+          "segments.date": "2026-01-17"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "9",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "3021306",
+          "metrics.impressions": "257",
+          "segments.date": "2026-01-16"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "10",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "4681458",
+          "metrics.impressions": "193",
+          "segments.date": "2026-01-15"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "8",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2932353",
+          "metrics.impressions": "191",
+          "segments.date": "2026-01-14"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "17",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "3535791",
+          "metrics.impressions": "323",
+          "segments.date": "2026-01-13"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "15",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "4729223",
+          "metrics.impressions": "273",
+          "segments.date": "2026-01-12"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "14",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "6908368",
+          "metrics.impressions": "278",
+          "segments.date": "2026-01-11"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "7",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "969453",
+          "metrics.impressions": "196",
+          "segments.date": "2026-01-10"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "15",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "7979950",
+          "metrics.impressions": "152",
+          "segments.date": "2026-01-09"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2966951",
+          "metrics.impressions": "120",
+          "segments.date": "2026-01-08"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "7",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2297272",
+          "metrics.impressions": "80",
+          "segments.date": "2026-01-07"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "5727258",
+          "metrics.impressions": "17",
+          "segments.date": "2026-01-06"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "934617",
+          "metrics.impressions": "85",
+          "segments.date": "2026-01-05"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "7",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "3565954",
+          "metrics.impressions": "49",
+          "segments.date": "2026-01-04"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "12",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "7615614",
+          "metrics.impressions": "272",
+          "segments.date": "2026-01-03"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "23",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "6319200",
+          "metrics.impressions": "384",
+          "segments.date": "2026-01-02"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "7",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2128815",
+          "metrics.impressions": "277",
+          "segments.date": "2026-01-01"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "6",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "4335821",
+          "metrics.impressions": "101",
+          "segments.date": "2025-12-31"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1086179",
+          "metrics.impressions": "56",
+          "segments.date": "2025-12-30"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "7",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "4776655",
+          "metrics.impressions": "94",
+          "segments.date": "2025-12-29"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "20",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "10780447",
+          "metrics.impressions": "326",
+          "segments.date": "2025-12-28"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "18",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "6701711",
+          "metrics.impressions": "346",
+          "segments.date": "2025-12-27"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "13",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "6159828",
+          "metrics.impressions": "323",
+          "segments.date": "2025-12-26"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2113902",
+          "metrics.impressions": "25",
+          "segments.date": "2025-12-25"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1179697",
+          "metrics.impressions": "8",
+          "segments.date": "2025-12-24"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 317.903024305,
+          "metrics.conversions": 1.0,
+          "metrics.cost_micros": "811802",
+          "metrics.impressions": "12",
+          "segments.date": "2025-12-23"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "3",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "455661",
+          "metrics.impressions": "6",
+          "segments.date": "2025-12-22"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "0",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "0",
+          "metrics.impressions": "2",
+          "segments.date": "2025-12-21"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "2",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "1880000",
+          "metrics.impressions": "8",
+          "segments.date": "2025-12-20"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "metrics.clicks": "5",
+          "metrics.conversions_value": 0.0,
+          "metrics.conversions": 0.0,
+          "metrics.cost_micros": "2244040",
+          "metrics.impressions": "26",
+          "segments.date": "2025-12-19"
+        }
+      ],
+      "budget_bidding": {
+        "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+        "campaign.network_settings.target_google_search": true,
+        "campaign.network_settings.target_search_network": true,
+        "campaign.network_settings.target_content_network": true,
+        "campaign.network_settings.target_partner_search_network": false,
+        "campaign.bidding_strategy_type": "MAXIMIZE_CONVERSION_VALUE",
+        "campaign.maximize_conversion_value.target_roas": 1.76,
+        "campaign.id": "22574541562",
+        "campaign_budget.resource_name": "customers/7137669444/campaignBudgets/14568871916",
+        "campaign_budget.delivery_method": "STANDARD",
+        "campaign_budget.amount_micros": "5000000"
+      },
+      "product_performance": [],
+      "listing_group_filters": [
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12572613876",
+          "asset_group_listing_group_filter.type_": "SUBDIVISION"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12692706052",
+          "asset_group_listing_group_filter.type_": "UNIT_EXCLUDED",
+          "asset_group_listing_group_filter.case_value.product_type.level": "LEVEL1"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12692706055",
+          "asset_group_listing_group_filter.type_": "SUBDIVISION",
+          "asset_group_listing_group_filter.case_value.product_type.value": "hearing aids",
+          "asset_group_listing_group_filter.case_value.product_type.level": "LEVEL1"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12692707765",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED",
+          "asset_group_listing_group_filter.case_value.product_type.value": "buy hearing aid supplies online",
+          "asset_group_listing_group_filter.case_value.product_type.level": "LEVEL1"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452683",
+          "asset_group_listing_group_filter.type_": "UNIT_EXCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452686",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452689",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452692",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452695",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452698",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452701",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452704",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452707",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452710",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452713",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452716",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452719",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452722",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452725",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452728",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452731",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452734",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452737",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452740",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452743",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452746",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452749",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452752",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452755",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452758",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452761",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452764",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452767",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452770",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452773",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452776",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452779",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452782",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        },
+        {
+          "campaign.resource_name": "customers/7137669444/campaigns/22574541562",
+          "campaign.id": "22574541562",
+          "asset_group.resource_name": "customers/7137669444/assetGroups/6576920400",
+          "asset_group.id": "6576920400",
+          "asset_group_listing_group_filter.resource_name": "customers/7137669444/assetGroupListingGroupFilters/6576920400~12704452785",
+          "asset_group_listing_group_filter.type_": "UNIT_INCLUDED"
+        }
+      ],
+      "ad_group_negative_keywords": [],
+      "shared_negative_keywords": [],
+      "demographics_performance": []
+    },
+    "strategy_recommendation": {
+      "primary_strategy": "8. Budget Optimization",
+      "secondary_strategy": "4. Maximize ROAS",
+      "tertiary_strategy": null,
+      "confidence": "MEDIUM",
+      "optimization_mode": "AGGRESSIVE_SCALING",
+      "rationale_summary": "The campaign has a high ROAS of 2.77, exceeding the target ROAS of 1.76, and is limited by budget, with 11.98% of impression share lost to budget. Increasing the budget can help scale the campaign and maximize conversions. Mobile devices have a higher conversion rate and ROAS compared to desktop, so prioritizing mobile spend can help improve overall campaign performance.",
+      "risk_level": "MEDIUM",
+      "expected_impact_30_days": {
+        "primary_metric_target": "Conversions",
+        "primary_metric_value": 3.0,
+        "secondary_metric_target": "ROAS",
+        "secondary_metric_value": 2.5,
+        "secondary_metric_unit": null
+      }
+    }
+  }
+}

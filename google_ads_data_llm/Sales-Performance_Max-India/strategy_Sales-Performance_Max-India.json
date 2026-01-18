@@ -1,0 +1,16 @@
+{
+  "primary_strategy": "8. Budget Optimization",
+  "secondary_strategy": "4. Maximize ROAS",
+  "tertiary_strategy": null,
+  "confidence": "MEDIUM",
+  "optimization_mode": "AGGRESSIVE_SCALING",
+  "rationale_summary": "The campaign has a high ROAS of 2.77, exceeding the target ROAS of 1.76, and is limited by budget, with 11.98% of impression share lost to budget. Increasing the budget can help scale the campaign and maximize conversions. Mobile devices have a higher conversion rate and ROAS compared to desktop, so prioritizing mobile spend can help improve overall campaign performance.",
+  "risk_level": "MEDIUM",
+  "expected_impact_30_days": {
+    "primary_metric_target": "Conversions",
+    "primary_metric_value": 3.0,
+    "secondary_metric_target": "ROAS",
+    "secondary_metric_value": 2.5,
+    "secondary_metric_unit": null
+  }
+}

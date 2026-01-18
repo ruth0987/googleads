@@ -1,0 +1,16 @@
+{
+  "primary_strategy": "4. Maximize ROAS",
+  "secondary_strategy": "8. Budget Optimization",
+  "tertiary_strategy": null,
+  "confidence": "MEDIUM",
+  "optimization_mode": "AGGRESSIVE_SCALING",
+  "rationale_summary": "The campaign has a high ROAS of 2.1, exceeding the target ROAS of 2.0, indicating a high-performing campaign that should be scaled aggressively. Additionally, the campaign is not limited by budget, but increasing the budget could further improve performance. Mobile devices have a higher CPA compared to desktop, but still contribute to the overall conversions, suggesting that mobile targeting should be maintained.",
+  "risk_level": "MEDIUM",
+  "expected_impact_30_days": {
+    "primary_metric_target": "ROAS",
+    "primary_metric_value": 2.2,
+    "secondary_metric_target": "Conversions",
+    "secondary_metric_value": 5,
+    "secondary_metric_unit": "x"
+  }
+}
