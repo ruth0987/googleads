@@ -2,6 +2,7 @@ import os
 import asyncio
 import json
 import logging
+import sys
 from typing import Optional, List, Dict, Any
 from langchain_mcp_adapters.client import MultiServerMCPClient
 from langgraph.prebuilt import create_react_agent
@@ -38,8 +39,8 @@ async def get_or_create_agent(agent_type: str):
         try:
             logger.info(f"🔌 Initializing MCP client for {agent_type}...")
             
-            # Get the Python executable from the venv
-            python_path = os.path.join(os.path.dirname(__file__), "venv", "bin", "python")
+            # Use the current system python executable (works locally and on Render)
+            python_path = sys.executable
             
             server_config = {}
             if agent_type == "ads":
@@ -118,11 +119,3 @@ async def cleanup():
                 logger.warning(f"⚠️ Error during cleanup of {agent_type}: {e}")
             finally:
                 _mcp_clients[agent_type] = None
-
-# For testing functionality
-if __name__ == "__main__":
-    async def test():
-        print(await get_chatbot_response("Hello, what campaigns do I have?", "ads"))
-        await cleanup()
-    
-    asyncio.run(test())
