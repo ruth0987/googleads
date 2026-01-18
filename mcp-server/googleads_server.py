@@ -280,12 +280,23 @@ class GoogleAdsAPIClient:
 
     def _parse_message(self, message):
         """Recursively parse protobuf message to dict."""
+        # Handle proto-plus wrappers
+        pb_obj = getattr(message, "_pb", message)
+        
         result = {}
-        for field in message._pb.ListFields():
-            name = field[0].name
-            value = field[1]
-            if hasattr(value, "_pb"):
+        # ListFields only returns fields that are actually set
+        for descriptor, value in pb_obj.ListFields():
+            name = descriptor.name
+            
+            # Recursive parse for nested messages
+            if hasattr(value, "ListFields"):
                 result[name] = self._parse_message(value)
+            # Handle repeated fields
+            elif isinstance(value, (list, tuple)) or hasattr(value, "__iter__") and not isinstance(value, (str, bytes)):
+                result[name] = [
+                    self._parse_message(v) if hasattr(v, "ListFields") else str(v)
+                    for v in value
+                ]
             else:
                 result[name] = str(value)
         return result
@@ -697,12 +708,12 @@ def list_campaigns(
     
     formatted = []
     for row in result["data"]:
-        c = row["campaign"]
-        m = row["metrics"]
+        c = row.get("campaign", {})
+        m = row.get("metrics", {})
         formatted.append({
-            "id": c["id"],
-            "name": c["name"],
-            "status": c["status"],
+            "id": c.get("id"),
+            "name": c.get("name"),
+            "status": c.get("status"),
             "spend": round(float(m.get("cost_micros", 0)) / 1_000_000, 2),
             "conversions": round(float(m.get("conversions", 0)), 2),
             "cpa": round(float(m.get("cost_per_conversion", 0)), 2)
@@ -737,9 +748,10 @@ def get_campaign_metrics(
     
     formatted = []
     for row in result["data"]:
-        m = row["metrics"]
+        m = row.get("metrics", {})
+        s = row.get("segments", {})
         formatted.append({
-            "date": row["segments"]["date"],
+            "date": s.get("date"),
             "spend": round(float(m.get("cost_micros", 0)) / 1_000_000, 2),
             "conversions": round(float(m.get("conversions", 0)), 2),
             "cpc": round(float(m.get("average_cpc", 0)), 2),
@@ -776,12 +788,12 @@ def list_ad_groups(
     
     formatted = []
     for row in result["data"]:
-        ag = row["ad_group"]
-        m = row["metrics"]
+        ag = row.get("ad_group", {})
+        m = row.get("metrics", {})
         formatted.append({
-            "id": ag["id"],
-            "name": ag["name"],
-            "status": ag["status"],
+            "id": ag.get("id"),
+            "name": ag.get("name"),
+            "status": ag.get("status"),
             "spend": round(float(m.get("cost_micros", 0)) / 1_000_000, 2),
             "conversions": round(float(m.get("conversions", 0)), 2),
             "cpa": round(float(m.get("cost_per_conversion", 0)), 2)
@@ -821,11 +833,12 @@ def list_keywords(
     
     formatted = []
     for row in result["data"]:
-        kw = row["ad_group_criterion"]["keyword"]
-        m = row["metrics"]
+        ag_crit = row.get("ad_group_criterion", {})
+        kw = ag_crit.get("keyword", {})
+        m = row.get("metrics", {})
         formatted.append({
-            "keyword": kw["text"],
-            "match_type": kw["match_type"],
+            "keyword": kw.get("text"),
+            "match_type": kw.get("match_type"),
             "spend": round(float(m.get("cost_micros", 0)) / 1_000_000, 2),
             "clicks": int(m.get("clicks", 0)),
             "conversions": round(float(m.get("conversions", 0)), 2),
@@ -859,10 +872,10 @@ def get_search_terms(
     
     formatted = []
     for row in result["data"]:
-        st = row["search_term_view"]
-        m = row["metrics"]
+        st = row.get("search_term_view", {})
+        m = row.get("metrics", {})
         formatted.append({
-            "search_term": st["search_term"],
+            "search_term": st.get("search_term"),
             "spend": round(float(m.get("cost_micros", 0)) / 1_000_000, 2),
             "clicks": int(m.get("clicks", 0)),
             "conversions": round(float(m.get("conversions", 0)), 2)
@@ -893,16 +906,20 @@ def get_budget_status(
     
     formatted = []
     for row in result["data"]:
-        c = row["campaign"]
-        b = row["campaign_budget"]
-        m = row["metrics"]
+        c = row.get("campaign", {})
+        b = row.get("campaign_budget", {})
+        m = row.get("metrics", {})
         
+        # Safe extraction with defaults
         daily_budget = float(b.get("amount_micros", 0)) / 1_000_000
-        avg_daily_spend = (float(m.get("cost_micros", 0)) / 1_000_000) / 30
+        total_cost = float(m.get("cost_micros", 0)) / 1_000_000
+        avg_daily_spend = total_cost / 30
         lost_share = float(m.get("search_budget_lost_impression_share", 0))
         
+        campaign_name = c.get("name", "Unknown Campaign")
+        
         formatted.append({
-            "campaign_name": c["name"],
+            "campaign_name": campaign_name,
             "daily_budget": round(daily_budget, 2),
             "avg_daily_spend": round(avg_daily_spend, 2),
             "budget_utilization": round((avg_daily_spend / daily_budget * 100), 2) if daily_budget > 0 else 0,
@@ -941,8 +958,8 @@ def get_auction_insights(
     
     formatted = []
     for row in result["data"]:
-        insight = row["auction_insight_search_term_view"]
-        m = row["metrics"]
+        insight = row.get("auction_insight_search_term_view", {})
+        m = row.get("metrics", {})
         formatted.append({
             "competitor": insight.get("competitor_domain"),
             "impression_share": round(float(m.get("auction_insight_search_impression_share", 0)) * 100, 2),
@@ -1037,11 +1054,14 @@ def detect_anomalies(
     # Aggregate by date
     daily_stats = {}
     for row in result["data"]:
-        d = row["segments"]["date"]
+        s = row.get("segments", {})
+        d = s.get("date")
+        if not d: continue
+        
         if d not in daily_stats:
             daily_stats[d] = {"cost": 0.0, "conv": 0.0, "clicks": 0, "imps": 0}
         
-        m = row["metrics"]
+        m = row.get("metrics", {})
         daily_stats[d]["cost"] += float(m.get("cost_micros", 0))
         daily_stats[d]["conv"] += float(m.get("conversions", 0))
         daily_stats[d]["clicks"] += int(m.get("clicks", 0))
@@ -1132,13 +1152,14 @@ def get_top_wasting_keywords(
     
     wasting = []
     for row in result["data"]:
-        m = row["metrics"]
+        m = row.get("metrics", {})
         spend = float(m.get("cost_micros", 0)) / 1_000_000
         if spend >= min_spend:
+            ag_crit = row.get("ad_group_criterion", {})
             wasting.append({
-                "campaign": row["campaign"]["name"],
-                "ad_group": row["ad_group"]["name"],
-                "keyword": row["ad_group_criterion"]["keyword"]["text"],
+                "campaign": row.get("campaign", {}).get("name"),
+                "ad_group": row.get("ad_group", {}).get("name"),
+                "keyword": ag_crit.get("keyword", {}).get("text"),
                 "spend": round(spend, 2),
                 "clicks": int(m.get("clicks", 0))
             })
@@ -1168,12 +1189,12 @@ def get_budget_issues(
     
     issues = []
     for row in result["data"]:
-        m = row["metrics"]
+        m = row.get("metrics", {})
         lost_share = float(m.get("search_budget_lost_impression_share", 0))
         issues.append({
-            "campaign_name": row["campaign"]["name"],
+            "campaign_name": row.get("campaign", {}).get("name"),
             "lost_impression_share_budget": round(lost_share * 100, 2),
-            "daily_budget": round(float(row["campaign_budget"].get("amount_micros", 0)) / 1_000_000, 2),
+            "daily_budget": round(float(row.get("campaign_budget", {}).get("amount_micros", 0)) / 1_000_000, 2),
             "avg_daily_spend_last_7_days": round((float(m.get("cost_micros", 0)) / 1_000_000) / 7, 2)
         })
     return issues
