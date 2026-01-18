@@ -21,11 +21,18 @@ if not DEVELOPER_TOKEN:
     raise ValueError("GOOGLE_ADS_DEVELOPER_TOKEN environment variable is required")
 
 MCC_ID = os.getenv("GOOGLE_ADS_MCC_ID", "8265069948")
-CLIENT_SECRET_PATH = os.getenv("GOOGLE_ADS_CLIENT_SECRET_PATH")
+
+# Resolve paths intelligently (Absolute or relative to root)
+def resolve_path(p: str) -> str:
+    if not p: return p
+    if os.path.isabs(p): return p
+    return os.path.abspath(os.path.join(os.path.dirname(__file__), p))
+
+CLIENT_SECRET_PATH = resolve_path(os.getenv("GOOGLE_ADS_CLIENT_SECRET_PATH"))
 if not CLIENT_SECRET_PATH:
     raise ValueError("GOOGLE_ADS_CLIENT_SECRET_PATH environment variable is required")
 
-REFRESH_TOKEN_PATH = os.getenv("GOOGLE_ADS_REFRESH_TOKEN_PATH", str(Path(__file__).parent / "refresh_token_1.txt"))
+REFRESH_TOKEN_PATH = resolve_path(os.getenv("GOOGLE_ADS_REFRESH_TOKEN_PATH", "refresh_token_1.txt"))
 
 
 class GoogleAdsClientWrapper:

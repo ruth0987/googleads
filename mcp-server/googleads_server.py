@@ -10,7 +10,7 @@ from mcp.server.fastmcp import FastMCP
 # --------------------------------------------------------------------------
 MCC_ID = "8265069948"
 DEVELOPER_TOKEN = "AXYmsdVBkpQyeWdhf0NsQA"
-CLIENT_SECRET_PATH = "/Users/ruthwikreddy/Documents/langchain/client_secret_2_284506040555-81h9foakpnq3nl8ridpt4ea6m6f12dfo.apps.googleusercontent.com (1).json"
+CLIENT_SECRET_PATH = "client_secret.json"
 REFRESH_TOKEN_PATH = "refresh_token_1.txt"
 TEST_CUSTOMER_ID = "1411274245"
 
