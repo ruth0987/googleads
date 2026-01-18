@@ -211,9 +211,16 @@ class GA4Client:
         return data
 
 
+# Resolve paths intelligently (Absolute or relative to root)
+def resolve_path(p: str) -> str:
+    if not p: return p
+    if os.path.isabs(p): return p
+    # Relative to the directory of this server file
+    return os.path.abspath(os.path.join(os.path.dirname(__file__), p))
+
 # Initialize client
-credentials_path = os.getenv('GA4_CREDENTIALS_PATH', 'credentials.json')
-token_path = os.getenv('GA4_TOKEN_PATH', './tokens/token.pickle')
+credentials_path = resolve_path(os.getenv('GA4_CREDENTIALS_PATH', 'credentials.json'))
+token_path = resolve_path(os.getenv('GA4_TOKEN_PATH', 'token.pickle'))
 
 ga4_client = GA4Client(
     credentials_file=credentials_path,
